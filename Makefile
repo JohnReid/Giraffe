@@ -1,7 +1,7 @@
-CXX=g++-4.9
+CXX=g++
 
 # this is used to build gtb only
-CC=gcc-4.9 
+CC=gcc
 
 HGVERSION:= $(shell hg parents --template '{node|short}')
 
